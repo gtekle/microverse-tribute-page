@@ -1,0 +1,102 @@
+body {
+  text-align: center;
+  font-size: 15px;
+}
+#title h1 {
+  font-size: 3rem;
+}
+.container {
+  width: 80%;
+}
+@media screen and (max-width: 480px) {
+  #title h1 {
+    font-size: 1rem;
+  }
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #eee;
+}
+
+#img-div {
+  background-color: #fff;
+  padding: 5px 5px;
+}
+img {
+  max-width: 100%;
+  align-items: center;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+#img-caption {
+  margin: 15px 0;
+}
+@media screen and (max-width: 480px) {
+  #img-caption {
+    font-size: 0.5rem;
+  }
+}
+#tribute-info-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+#tribute-info {
+  font-size: 1.5rem;
+  margin: 25px 0;
+}
+#tribute-info-page li {
+  font-size: 1.2rem;
+}
+@media screen and (max-width: 480px) {
+  #tribute-info-page {
+    font-size: 0.6rem;
+  }
+  #tribute-info-page ul {
+    width: 70%;
+  }
+  #tribute-info-page li {
+    font-size: 00.6rem;
+  }
+  #tribute-info {
+    font-size: 0.6rem;
+  }
+}
+
+ul {
+  max-width: 600px;
+  margin: 0 auto 10px auto;
+  text-align: left;
+}
+
+#quote {
+  width: 100%;
+  font-size: 1.5rem;
+}
+#tribute-link-sec {
+  margin: 10px 10px;
+  width: 100%;
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+@media screen and (max-width: 480px) {
+  #quote {
+    font-size: 0.6rem;
+    width: 100%;
+    align-items: center;
+    border: 1px dotted red;
+  }
+  #quote q {
+    text-align: justify;
+  }
+  #tribute-link-sec {
+    font-size: 0.6rem;
+  }
+}
